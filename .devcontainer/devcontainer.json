@@ -1,0 +1,9 @@
+   {
+     "name": "simulpix",
+     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+     "features": {
+       "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+     },
+     "forwardPorts": [3000, 8082, 8083],
+     "hostRequirements": { "memory": "8gb" }
+   }
